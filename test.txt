@@ -2,12 +2,20 @@ git clone https://github.com/MarudhachalamurthyB/Learnings.git
 cd Learnings
 git status
 git add test.txt
+git add . ---->all modified file
 git status
 git commit -m "test.txt file added"
 git push origin main
 git pull
 
-from local to github : Any mudificiation/addition/deletion --->Add --->commit --->push
+files from local to github : Any mudificiation/addition/deletion --->Add --->commit --->push
 
-from github to local : Any mudificiation/addition/deletion --->pull
+files from github to local : Any mudificiation/addition/deletion --->pull
 
+new repo from local to git : git init from folder
+git add .
+git commit -m "created 2 files"
+git remote add origin https://github.com/MarudhachalamurthyB/TEST.git
+git branch ---> identify branch name
+git branch -M main ---to change branch name t main or any name and push
+git push origin master
