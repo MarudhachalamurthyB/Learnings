@@ -5,3 +5,9 @@ git add test.txt
 git status
 git commit -m "test.txt file added"
 git push origin main
+git pull
+
+from local to github : Any mudificiation/addition/deletion --->Add --->commit --->push
+
+from github to local : Any mudificiation/addition/deletion --->pull
+
