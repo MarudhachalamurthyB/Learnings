@@ -1,1 +1,7 @@
-Test
+git clone https://github.com/MarudhachalamurthyB/Learnings.git
+cd Learnings
+git status
+git add test.txt
+git status
+git commit -m "test.txt file added"
+git push origin main
